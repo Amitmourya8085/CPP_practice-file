@@ -15,7 +15,7 @@ int max_element(int *arr,int n)
 }
 int main()
 {
-		int arr[6]={45,3,5,2,3,99};
+		int arr[6]={45,3,5,2,3,999};
 		int size=sizeof(arr)/sizeof(arr[0]);
 	
 		cout<<"\n max="<<max_element(arr,size);	
